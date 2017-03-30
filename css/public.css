@@ -1,0 +1,8 @@
+body,html,h1,h3,h2,p,dl,dt,dd,ol,ul,li,input,h5{padding:0;margin:0;}
+
+a{text-decoration:none;color:#000;}
+img{border:none;}
+img{display: block;} 
+ul,ol,li{list-style:none;}	
+input{background:none;border:none}
+em,b{font-style:normal;}

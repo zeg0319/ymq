@@ -1,0 +1,68 @@
+body{
+	background: url(../img/loginp.png) no-repeat;
+	 background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 10rem;
+}
+.logo img{
+	width: 5rem;
+    height: 5rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+
+}
+
+#login-form li{
+	background: #398496;
+	border-bottom: 0.01rem solid #7aa2a8;
+	height: 2.5rem;
+}
+#login-form li i{
+	color:#fff;
+	font-size: 1rem;
+}
+.loginBtn{
+	background: #398496!important;
+	margin-top: 1.4rem;
+	height: 2.5rem;
+}
+#login-form  ul{
+	background: #398496;
+}
+.bgImgPerson{
+	position: fixed;
+	top:0;
+	z-index: -1999999;
+}
+.bgImg{
+	position: fixed;
+	top:0;
+	z-index: 0
+}
+
+::-webkit-input-placeholder{
+	color:#FFFFFF;
+	opacity: 0.9;
+}
+::-moz-placeholder{
+	color:#FFFFFF;
+	opacity: 0.9;
+}
+::-ms-input-placeholder{
+	color:#FFFFFF;
+	opacity: 0.9;
+}
